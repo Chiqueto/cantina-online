@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "859213708361",
+    "project_id": "cantinaonline-5d26c",
+    "storage_bucket": "cantinaonline-5d26c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:859213708361:android:f2dd30a7169ea7f426d398",
+        "android_client_info": {
+          "package_name": "com.chiqueto.cantinaonline"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEddMcWWNrMPc8_eOjH5N4qTaTWLkEY0Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -2,7 +2,7 @@ import * as SecureStore from 'expo-secure-store';
 import { useEffect, useState } from "react";
 import { Text, View } from "react-native";
 
-const Home = () => {
+const ShoppingCart = () => {
     const [user, setUser] = useState('');
     useEffect(() => {
         SecureStore.getItemAsync('user')
@@ -13,14 +13,14 @@ const Home = () => {
         <View className='m-2'>
             <View>
                 <Text className='font-bold text-lg'>
-                    Bem vindo, <Text className='underline'>{user}</Text>!
+                    Meu carrinho de compras!
                 </Text>
                 <Text className='italic'>
-                    Que tal um lanchinho para acompanhar essa partida?
+                    Finalize sua compra e vá até o bar!
                 </Text>
             </View>
         </View>
     );
 }
 
-export default Home;
+export default ShoppingCart;

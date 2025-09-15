@@ -7,8 +7,9 @@ export default function RootLayout() {
     <SafeAreaProvider>
       <StatusBar style="auto" />
 
-      <SafeAreaView className="flex-1" edges={["top", "bottom"]}>
+      <SafeAreaView className="flex-1" edges={["top"]}>
         <Stack screenOptions={{ headerShown: false }} />
+
       </SafeAreaView>
     </SafeAreaProvider>
   )
