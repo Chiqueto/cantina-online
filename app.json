@@ -43,7 +43,12 @@
           "faceIDPermission": "Allow $(PRODUCT_NAME) to access your Face ID biometric data."
         }
       ],
-      "@react-native-firebase/app"
+      [
+        "@react-native-firebase/app",
+        {
+          "path": "./google-services.json"
+        }
+      ]
     ],
     "experiments": {
       "typedRoutes": true
