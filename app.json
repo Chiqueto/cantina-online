@@ -10,7 +10,8 @@
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.chiqueto.cantinaonline" // <-- ADICIONE ESTA LINHA
+      "bundleIdentifier": "com.chiqueto.cantinaonline",
+      "googleServicesFile": "./GoogleService-Info.plist" // <-- ADICIONE ESTA LINHA
     },
     "android": {
       "adaptiveIcon": {
@@ -18,7 +19,9 @@
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "package": "com.chiqueto.cantinaonline" // <-- ADICIONE ESTA LINHA
+      "package": "com.chiqueto.cantinaonline",
+      "googleServicesFile": "./google-services.json"
+      // <-- ADICIONE ESTA LINHA
     },
     "web": {
       "bundler": "metro",
@@ -43,12 +46,7 @@
           "faceIDPermission": "Allow $(PRODUCT_NAME) to access your Face ID biometric data."
         }
       ],
-      [
-        "@react-native-firebase/app",
-        {
-          "path": "./google-services.json"
-        }
-      ]
+      "@react-native-firebase/app"
     ],
     "experiments": {
       "typedRoutes": true
