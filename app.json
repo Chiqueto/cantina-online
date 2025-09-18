@@ -11,7 +11,7 @@
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.chiqueto.cantinaonline",
-      "googleServicesFile": "./GoogleService-Info.plist" // <-- ADICIONE ESTA LINHA
+      "googleServicesFile": "./GoogleService-Info.plist"
     },
     "android": {
       "adaptiveIcon": {
@@ -21,7 +21,6 @@
       "edgeToEdgeEnabled": true,
       "package": "com.chiqueto.cantinaonline",
       "googleServicesFile": "./google-services.json"
-      // <-- ADICIONE ESTA LINHA
     },
     "web": {
       "bundler": "metro",
@@ -50,6 +49,12 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "f98c2903-07a3-4302-a356-50513522600c"
+      }
     }
   }
 }
